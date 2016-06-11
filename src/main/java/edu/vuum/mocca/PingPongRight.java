@@ -86,9 +86,9 @@ public class PingPongRight {
              */
 
             // TODO - You fill in here.
-            for (int i=0; i<mMaxLoopIterations; i++) {
+            for (int i=1; i<=mMaxLoopIterations; i++) {
                 acquire();
-                System.out.println(stringToPrint);
+                System.out.println(stringToPrint+"("+i+")");
                 release();
             }
 
